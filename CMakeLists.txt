@@ -13,7 +13,7 @@ endif()
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES rospack tinyxml
+  LIBRARIES rospack ${tinyxml_LIBRARIES}
   DEPENDS Boost
 )
 
